@@ -1,0 +1,98 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  width: auto;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=ybZ%2b56AD&id=AF80EF739EA603BE0F2684BFBA822E72DB861DDD&thid=OIP.ybZ-56ADsD2Dxyz4mD6lEAHaE8&mediaurl=https%3a%2f%2fisorepublic.com%2fwp-content%2fuploads%2f2018%2f11%2ftexture-background.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c9b67ee7a003b03d83c72cf8983ea510%3frik%3d3R2G23Iugrq%252fhA%26pid%3dImgRaw%26r%3d0&exph=2867&expw=4300&q=black+texture&simid=608045715037965351&FORM=IRPRST&ck=B26573173ADC990BAA6E58FBA8044874&selectedIndex=7&itb=0);
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+/*   border:1px solid red; */
+  height: 30%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+    color:white;
+    margin-left: 40%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: black;
+  .h {
+    padding: 5px;
+  }
